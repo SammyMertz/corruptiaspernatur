@@ -1,0 +1,40 @@
+{
+  "name": "corruptiaspernatur",
+  "version": "1.0.0",
+  "description": "REST HTTP client built in functional style",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "rm -rf ./lib && tsc --build tsconfig.production.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SammyMertz/corruptiaspernatur.git"
+  },
+  "keywords": [
+    "fetch",
+    "quisquam",
+    "functional",
+    "fp-ts"
+  ],
+  "author": "JeniferLubowitz",
+  "license": "MIT",
+  "peerDependencies": {
+    "cross-fetch": "^3.0.4",
+    "fp-ts": "^2.3.1",
+    "io-ts": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "cross-fetch": "^3.0.4",
+    "fp-ts": "^2.3.1",
+    "io-ts": "^2.0.2",
+    "jest": "^24.9.0",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {}
+}
